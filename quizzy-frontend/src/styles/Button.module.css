@@ -1,0 +1,28 @@
+.button_parent {
+  background-color: var(--red-2);
+  border-radius: var(--round-border);
+}
+
+.button {
+  width: 100%;
+  background-color: var(--red-1);
+  border: 0;
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: var(--round-border);
+  position: relative;
+  cursor: pointer;
+  bottom: 0.25rem;
+}
+
+.button:hover {
+  transform: translateY(0.25rem);
+}
+
+@media screen and (min-width: 769px) {
+  .button {
+    font-size: 1.5rem;
+  }
+}

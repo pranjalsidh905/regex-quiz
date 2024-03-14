@@ -1,0 +1,37 @@
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.userTable th,
+.userTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.userTable th {
+    background-color: #f2f2f2;
+}
+
+.info_title {
+    text-align: center;
+    color: var(--white);
+    padding: 0.5rem 1.25rem;
+    background-color: var(--red-2);
+    font-size: 2rem;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+    border-radius: var(--round-border);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: var(--white); */
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+}

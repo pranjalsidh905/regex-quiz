@@ -1,0 +1,33 @@
+.join_form {
+  background-color: var(--gray);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  border-radius: var(--slight-round-border);
+}
+
+.join_form > input {
+  border: 0;
+  outline: none;
+  border-radius: var(--half-round-border);
+  border-bottom: 0.25rem solid var(--gray-dark);
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  transition: var(--my-transition);
+}
+
+.join_form > input:hover {
+  border-color: var(--red-1);
+}
+
+@media screen and (min-width: 769px) {
+  .join_form {
+    padding: 2rem;
+  }
+
+  .join_form > input {
+    font-size: 1.25rem;
+  }
+}
